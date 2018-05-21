@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class='weatherPosition'>
+        <h2>Weather: <span class='city'></span><span class = 'icon'></span></h2>
+    </div>
+
+    <div class="emplacement">
+        <ul>
+            <li class='temp'>Temperature:<span class='degrees'></span><span>°C</span></li>
+            <li class='wind'>Wind: <span class='windspeed'></span><span>km/h</span></li>
+            <li class='humidity'>Humidity: <span class='windHumidity'></span><span>g/m <sup>3</sup></span></li>
+            <li class='pressure'>Pressure: <span class='mmMercury'></span> <span>mm/merc.</span></li>
+            <li>Summary: <span class='summary'></span></li>
+            <li>Visibility: <span class='visibility'></span> <span>km</span></li>
+        </ul>
+    </div>
+    <div class='buttonPosition'><button class='getLocation' onclick='getWeatherLocation()'>Get Location</button></div>
+
+    <script src='index.js'></script>
+</body>
+
+</html>
